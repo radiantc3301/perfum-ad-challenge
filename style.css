@@ -14,7 +14,7 @@ img{
 }
 html{
   padding : 0px;
-  background-color: #ffdbac
+  background-color: #ffdbac;
 }
 #heading{
   font-size: 0.8rem;
@@ -55,11 +55,12 @@ button{
   border-radius: 5px;
   border: none;
 }
+
 button:hover{
   cursor: pointer;
   background-color: #1d7d30;
   opacity: 0.8;
-  transform: scale(1.02)
+  transform: scale(1.02);
 }
 @media(min-width: 528px){
   #ad{

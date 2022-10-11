@@ -1,0 +1,70 @@
+img{
+  width : 100%;
+  height : 250px;
+}
+
+#ad {
+  width: 95%;
+  height: auto;
+  margin: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  background-color: white;
+}
+html{
+  padding : 0px;
+  background-color: #ffdbac
+}
+#heading{
+  font-size: 0.8rem;
+  opacity: 0.5;
+  margin-left: 15px;
+}
+#mainheading{
+  font-size: 1.9rem;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#bigpara{
+  font-size: 1rem;
+  margin-left: 15px;
+  margin-right: 15px;
+  opacity: 0.8;
+}
+#price1{
+  margin-left: 15px;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1d7d30;
+}
+#price2{
+  margin-left: 15px;
+  text-decoration: line-through;
+  position: relative;
+  bottom: 4px;
+}
+
+button{
+  color: white;
+  background-color: #1d7d30;
+  width : 90%;
+  padding: 13px;
+  margin-top: 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border: none;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #1d7d30;
+  opacity: 0.8;
+  transform: scale(1.02)
+}
+@media(min-width: 528px){
+  #ad{
+    width: 400px;
+    heigth: auto;
+  }
+}
+

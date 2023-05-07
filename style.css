@@ -4,6 +4,9 @@ img{
 }
 
 #ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 95%;
   height: auto;
   margin: 5px;
